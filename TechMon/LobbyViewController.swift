@@ -35,7 +35,7 @@ class LobbyViewController: UIViewController {
         if stamina > 50{
             stamina -= 50
             staminaLabel.text = "\(stamina)/100"
-            performSegue(withIdentifier: "toBattle", sender: nil)
+            performSegue(withIdentifier: "toMap", sender: nil)
         }else{
             let alert: UIAlertController = UIAlertController(title: "バトルにいけません", message: "スタミナをためてください", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

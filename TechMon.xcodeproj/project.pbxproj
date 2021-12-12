@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4907FD5E2765943C00EA5C67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907FD5D2765943C00EA5C67 /* MapViewController.swift */; };
+		4907FD602765CDAD00EA5C67 /* pipo-pic002a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4907FD5F2765CDAD00EA5C67 /* pipo-pic002a.jpg */; };
 		492887892740DD8200ABD1D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492887882740DD8200ABD1D3 /* AppDelegate.swift */; };
 		4928878B2740DD8200ABD1D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928878A2740DD8200ABD1D3 /* SceneDelegate.swift */; };
 		4928878D2740DD8200ABD1D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928878C2740DD8200ABD1D3 /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4907FD5D2765943C00EA5C67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4907FD5F2765CDAD00EA5C67 /* pipo-pic002a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pipo-pic002a.jpg"; sourceTree = "<group>"; };
 		492887852740DD8200ABD1D3 /* TechMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492887882740DD8200ABD1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4928878A2740DD8200ABD1D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				492887962740DD8500ABD1D3 /* Info.plist */,
 				492887E32740E8C400ABD1D3 /* LobbyViewController.swift */,
 				492887E52740E8CF00ABD1D3 /* BattleViewController.swift */,
+				4907FD5D2765943C00EA5C67 /* MapViewController.swift */,
 			);
 			path = TechMon;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				492887BD2740DDC000ABD1D3 /* waku.png */,
 				492887BE2740DDC000ABD1D3 /* gold_button.png */,
 				492887BF2740DDC000ABD1D3 /* yusya.png */,
+				4907FD5F2765CDAD00EA5C67 /* pipo-pic002a.jpg */,
 				492887C02740DDC000ABD1D3 /* monster.png */,
 			);
 			path = Images;
@@ -341,6 +347,7 @@
 				492887DE2740DDC000ABD1D3 /* misaki_gothic.ttf in Resources */,
 				492887DB2740DDC000ABD1D3 /* SE_gameover.mp3 in Resources */,
 				492887CF2740DDC000ABD1D3 /* battlebg.png in Resources */,
+				4907FD602765CDAD00EA5C67 /* pipo-pic002a.jpg in Resources */,
 				492887D82740DDC000ABD1D3 /* BGM_battle001.mp3 in Resources */,
 				492887DC2740DDC000ABD1D3 /* SE_charge.mp3 in Resources */,
 				492887D92740DDC000ABD1D3 /* SE_fire.mp3 in Resources */,
@@ -377,6 +384,7 @@
 				492887E42740E8C400ABD1D3 /* LobbyViewController.swift in Sources */,
 				492887892740DD8200ABD1D3 /* AppDelegate.swift in Sources */,
 				4928878B2740DD8200ABD1D3 /* SceneDelegate.swift in Sources */,
+				4907FD5E2765943C00EA5C67 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

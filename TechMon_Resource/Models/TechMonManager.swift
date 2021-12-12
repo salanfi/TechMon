@@ -17,12 +17,16 @@ class TechMonManager {
     var seAudioPlayer: AVAudioPlayer?
     var player: Character!
     var enemy: Character!
+    var slime: Character!
+    var stamina: Int = 100
     
     init() {
         
         // キャラクターの設定
         player = Character(name: "勇者", imageName: "yusya.png", attackPoint: 30, maxHP: 100, maxTP: 100, maxMP: 20)
-        enemy = Character(name: "ドラゴン", imageName: "monster.png", attackPoint: 20, maxHP: 400, maxTP: 0, maxMP: 35)
+        enemy = Character(name: "ドラゴン", imageName: "monster.png", attackPoint: 40, maxHP: 400, maxTP: 0, maxMP: 40)
+        slime = Character(name: "スライム", imageName: "monster.png", attackPoint: 5, maxHP: 50, maxTP: 0, maxMP: 20)
+        
     }
     
     // キャラクターたちのステータスをリセットする
