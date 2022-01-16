@@ -45,6 +45,8 @@
 		497FD6912793BC5900A0D190 /* 山道.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 497FD68A2793BC5900A0D190 /* 山道.jpeg */; };
 		497FD6922793BC5900A0D190 /* ドラゴン.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD68B2793BC5900A0D190 /* ドラゴン.png */; };
 		497FD6942793BFFF00A0D190 /* 海.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6932793BFFF00A0D190 /* 海.png */; };
+		497FD6972793F0F200A0D190 /* 砂浜.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6952793F0F200A0D190 /* 砂浜.jpeg */; };
+		497FD6982793F0F200A0D190 /* 森背景.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6962793F0F200A0D190 /* 森背景.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		497FD68A2793BC5900A0D190 /* 山道.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山道.jpeg"; sourceTree = "<group>"; };
 		497FD68B2793BC5900A0D190 /* ドラゴン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドラゴン.png"; sourceTree = "<group>"; };
 		497FD6932793BFFF00A0D190 /* 海.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海.png"; sourceTree = "<group>"; };
+		497FD6952793F0F200A0D190 /* 砂浜.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "砂浜.jpeg"; sourceTree = "<group>"; };
+		497FD6962793F0F200A0D190 /* 森背景.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "森背景.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,8 @@
 			children = (
 				497FD6932793BFFF00A0D190 /* 海.png */,
 				497FD6852793BC5900A0D190 /* 霧.png */,
+				497FD6952793F0F200A0D190 /* 砂浜.jpeg */,
+				497FD6962793F0F200A0D190 /* 森背景.jpeg */,
 				497FD6862793BC5900A0D190 /* ゴーレム.png */,
 				497FD6872793BC5900A0D190 /* 勇者.png */,
 				497FD6882793BC5900A0D190 /* 森.png */,
@@ -371,6 +377,7 @@
 				492887D12740DDC000ABD1D3 /* waku.png in Resources */,
 				492887D72740DDC000ABD1D3 /* SE_fanfare.mp3 in Resources */,
 				497FD68F2793BC5900A0D190 /* 森.png in Resources */,
+				497FD6982793F0F200A0D190 /* 森背景.jpeg in Resources */,
 				492887CE2740DDC000ABD1D3 /* lobby.png in Resources */,
 				497FD6912793BC5900A0D190 /* 山道.jpeg in Resources */,
 				492887D22740DDC000ABD1D3 /* gold_button.png in Resources */,
@@ -383,6 +390,7 @@
 				497FD68E2793BC5900A0D190 /* 勇者.png in Resources */,
 				497FD6942793BFFF00A0D190 /* 海.png in Resources */,
 				492887DB2740DDC000ABD1D3 /* SE_gameover.mp3 in Resources */,
+				497FD6972793F0F200A0D190 /* 砂浜.jpeg in Resources */,
 				492887CF2740DDC000ABD1D3 /* battlebg.png in Resources */,
 				4907FD602765CDAD00EA5C67 /* pipo-pic002a.jpg in Resources */,
 				492887D82740DDC000ABD1D3 /* BGM_battle001.mp3 in Resources */,

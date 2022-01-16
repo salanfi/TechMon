@@ -17,6 +17,7 @@ class BattleViewController: UIViewController {
     @IBOutlet var enemyImageView: UIImageView!
     @IBOutlet var enemyHPLabel: UILabel!
     @IBOutlet var enemyMPLabel: UILabel!
+    @IBOutlet var backgraundImageView: UIImageView!
     let techMonManager = TechMonManager.shared
 //    var playerHP = 100
 //    var playerMP = 0
@@ -35,10 +36,14 @@ class BattleViewController: UIViewController {
 
         if stageID == "1" {
             enemy = techMonManager.slime
+            backgraundImageView.image = UIImage(named: "森背景.jpeg")
         }else if stageID == "2"{
             enemy = techMonManager.golem
+            backgraundImageView.image = UIImage(named: "山道.jpeg")
         }else{
             enemy = techMonManager.enemy
+            backgraundImageView.image = UIImage(named: "砂浜.jpeg")
+            
         }
         playerNameLabel.text = "勇者"
         playerImageVIew.image = UIImage(named: "yusya.png")
