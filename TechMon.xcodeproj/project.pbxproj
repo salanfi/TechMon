@@ -37,6 +37,14 @@
 		492887DE2740DDC000ABD1D3 /* misaki_gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492887CD2740DDC000ABD1D3 /* misaki_gothic.ttf */; };
 		492887E42740E8C400ABD1D3 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492887E32740E8C400ABD1D3 /* LobbyViewController.swift */; };
 		492887E62740E8CF00ABD1D3 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492887E52740E8CF00ABD1D3 /* BattleViewController.swift */; };
+		497FD68C2793BC5900A0D190 /* 霧.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6852793BC5900A0D190 /* 霧.png */; };
+		497FD68D2793BC5900A0D190 /* ゴーレム.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6862793BC5900A0D190 /* ゴーレム.png */; };
+		497FD68E2793BC5900A0D190 /* 勇者.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6872793BC5900A0D190 /* 勇者.png */; };
+		497FD68F2793BC5900A0D190 /* 森.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6882793BC5900A0D190 /* 森.png */; };
+		497FD6902793BC5900A0D190 /* スライム.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6892793BC5900A0D190 /* スライム.png */; };
+		497FD6912793BC5900A0D190 /* 山道.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 497FD68A2793BC5900A0D190 /* 山道.jpeg */; };
+		497FD6922793BC5900A0D190 /* ドラゴン.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD68B2793BC5900A0D190 /* ドラゴン.png */; };
+		497FD6942793BFFF00A0D190 /* 海.png in Resources */ = {isa = PBXBuildFile; fileRef = 497FD6932793BFFF00A0D190 /* 海.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +99,14 @@
 		492887CD2740DDC000ABD1D3 /* misaki_gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = misaki_gothic.ttf; sourceTree = "<group>"; };
 		492887E32740E8C400ABD1D3 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 		492887E52740E8CF00ABD1D3 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		497FD6852793BC5900A0D190 /* 霧.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "霧.png"; sourceTree = "<group>"; };
+		497FD6862793BC5900A0D190 /* ゴーレム.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゴーレム.png"; sourceTree = "<group>"; };
+		497FD6872793BC5900A0D190 /* 勇者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勇者.png"; sourceTree = "<group>"; };
+		497FD6882793BC5900A0D190 /* 森.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "森.png"; sourceTree = "<group>"; };
+		497FD6892793BC5900A0D190 /* スライム.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スライム.png"; sourceTree = "<group>"; };
+		497FD68A2793BC5900A0D190 /* 山道.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山道.jpeg"; sourceTree = "<group>"; };
+		497FD68B2793BC5900A0D190 /* ドラゴン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドラゴン.png"; sourceTree = "<group>"; };
+		497FD6932793BFFF00A0D190 /* 海.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +192,7 @@
 		492887B82740DDC000ABD1D3 /* TechMon_Resource */ = {
 			isa = PBXGroup;
 			children = (
+				497FD6842793BC5900A0D190 /* 素材 */,
 				492887B92740DDC000ABD1D3 /* Images */,
 				492887C12740DDC000ABD1D3 /* Models */,
 				492887C42740DDC000ABD1D3 /* Sounds */,
@@ -228,6 +245,21 @@
 				492887CD2740DDC000ABD1D3 /* misaki_gothic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		497FD6842793BC5900A0D190 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				497FD6932793BFFF00A0D190 /* 海.png */,
+				497FD6852793BC5900A0D190 /* 霧.png */,
+				497FD6862793BC5900A0D190 /* ゴーレム.png */,
+				497FD6872793BC5900A0D190 /* 勇者.png */,
+				497FD6882793BC5900A0D190 /* 森.png */,
+				497FD6892793BC5900A0D190 /* スライム.png */,
+				497FD68A2793BC5900A0D190 /* 山道.jpeg */,
+				497FD68B2793BC5900A0D190 /* ドラゴン.png */,
+			);
+			path = "素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,18 +370,26 @@
 				492887D02740DDC000ABD1D3 /* bgimage.jpg in Resources */,
 				492887D12740DDC000ABD1D3 /* waku.png in Resources */,
 				492887D72740DDC000ABD1D3 /* SE_fanfare.mp3 in Resources */,
+				497FD68F2793BC5900A0D190 /* 森.png in Resources */,
 				492887CE2740DDC000ABD1D3 /* lobby.png in Resources */,
+				497FD6912793BC5900A0D190 /* 山道.jpeg in Resources */,
 				492887D22740DDC000ABD1D3 /* gold_button.png in Resources */,
 				492887DA2740DDC000ABD1D3 /* SE_attack.mp3 in Resources */,
 				492887952740DD8500ABD1D3 /* LaunchScreen.storyboard in Resources */,
 				492887DD2740DDC000ABD1D3 /* lobby.mp3 in Resources */,
 				492887922740DD8500ABD1D3 /* Assets.xcassets in Resources */,
+				497FD6922793BC5900A0D190 /* ドラゴン.png in Resources */,
 				492887DE2740DDC000ABD1D3 /* misaki_gothic.ttf in Resources */,
+				497FD68E2793BC5900A0D190 /* 勇者.png in Resources */,
+				497FD6942793BFFF00A0D190 /* 海.png in Resources */,
 				492887DB2740DDC000ABD1D3 /* SE_gameover.mp3 in Resources */,
 				492887CF2740DDC000ABD1D3 /* battlebg.png in Resources */,
 				4907FD602765CDAD00EA5C67 /* pipo-pic002a.jpg in Resources */,
 				492887D82740DDC000ABD1D3 /* BGM_battle001.mp3 in Resources */,
+				497FD6902793BC5900A0D190 /* スライム.png in Resources */,
+				497FD68C2793BC5900A0D190 /* 霧.png in Resources */,
 				492887DC2740DDC000ABD1D3 /* SE_charge.mp3 in Resources */,
+				497FD68D2793BC5900A0D190 /* ゴーレム.png in Resources */,
 				492887D92740DDC000ABD1D3 /* SE_fire.mp3 in Resources */,
 				492887D42740DDC000ABD1D3 /* monster.png in Resources */,
 				492887902740DD8200ABD1D3 /* Main.storyboard in Resources */,

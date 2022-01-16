@@ -17,11 +17,11 @@ class MapViewController: UIViewController {
     @IBAction func toSlime(){
         performSegue(withIdentifier: "tobattle", sender: "1")
     }
-    @IBAction func toSckelton(){
+    @IBAction func togolem(){
         performSegue(withIdentifier: "tobattle", sender: "2")
     }
     @IBAction func toDoragon(){
-        performSegue(withIdentifier: "tobattle", sender: "#")
+        performSegue(withIdentifier: "tobattle", sender: "3")
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if let vc = segue.destination as? BattleViewController {

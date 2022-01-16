@@ -18,14 +18,16 @@ class TechMonManager {
     var player: Character!
     var enemy: Character!
     var slime: Character!
+    var golem: Character!
     var stamina: Int = 100
     
     init() {
         
         // キャラクターの設定
-        player = Character(name: "勇者", imageName: "yusya.png", attackPoint: 30, maxHP: 100, maxTP: 100, maxMP: 20)
-        enemy = Character(name: "ドラゴン", imageName: "monster.png", attackPoint: 40, maxHP: 400, maxTP: 0, maxMP: 40)
-        slime = Character(name: "スライム", imageName: "monster.png", attackPoint: 5, maxHP: 50, maxTP: 0, maxMP: 20)
+        player = Character(name: "勇者", imageName: "勇者.png", attackPoint: 30, maxHP: 200, maxTP: 100, maxMP: 20)
+        enemy = Character(name: "ドラゴン", imageName: "ドラゴン.png", attackPoint: 30, maxHP: 350, maxTP: 0, maxMP: 40)
+        slime = Character(name: "スライム", imageName: "スライム.png", attackPoint: 5, maxHP: 50, maxTP: 0, maxMP: 20)
+        golem = Character(name: "ゴーレム", imageName: "ゴーレム.png", attackPoint: 30, maxHP: 400, maxTP: 0, maxMP: 70)
         
     }
     

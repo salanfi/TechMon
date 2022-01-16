@@ -62,7 +62,7 @@
                                     <segue destination="XvB-SY-dKB" kind="show" identifier="toMap" id="ocX-aA-aka"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yusya.png" translatesAutoresizingMaskIntoConstraints="NO" id="smy-pN-86x">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="勇者.png" translatesAutoresizingMaskIntoConstraints="NO" id="smy-pN-86x">
                                 <rect key="frame" x="73" y="176" width="277" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -130,34 +130,32 @@
                                     <action selector="back" destination="XvB-SY-dKB" eventType="touchUpInside" id="u7l-SK-eNl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WP-Ek-hIf">
-                                <rect key="frame" x="287" y="74" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQx-aK-ukW">
+                                <rect key="frame" x="243" y="542" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="森.png"/>
                                 <connections>
-                                    <action selector="toDoragon" destination="XvB-SY-dKB" eventType="touchUpInside" id="at4-da-7O4"/>
+                                    <action selector="toSlime" destination="XvB-SY-dKB" eventType="touchUpInside" id="d2P-LB-SmV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQx-aK-ukW">
-                                <rect key="frame" x="287" y="543" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuJ-fj-Vwq">
+                                <rect key="frame" x="277" y="74" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="霧.png"/>
                                 <connections>
-                                    <action selector="toSlime" destination="XvB-SY-dKB" eventType="touchUpInside" id="ZPj-6w-GL9"/>
+                                    <action selector="toDoragon" destination="XvB-SY-dKB" eventType="touchUpInside" id="6fR-Ak-UuO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuJ-fj-Vwq">
-                                <rect key="frame" x="71" y="320" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WP-Ek-hIf">
+                                <rect key="frame" x="75" y="238" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="海.png"/>
                                 <connections>
-                                    <action selector="toSckelton" destination="XvB-SY-dKB" eventType="touchUpInside" id="gsr-T1-RyP"/>
+                                    <action selector="togolem" destination="XvB-SY-dKB" eventType="touchUpInside" id="Lzf-eP-ELT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -338,15 +336,15 @@
         <image name="gold_button.png" width="800" height="245"/>
         <image name="lobby.png" width="500" height="400"/>
         <image name="pipo-pic002a.jpg" width="640" height="480"/>
-        <image name="yusya.png" width="56" height="56"/>
+        <image name="勇者.png" width="346" height="450"/>
+        <image name="森.png" width="400" height="358"/>
+        <image name="海.png" width="400" height="358"/>
+        <image name="霧.png" width="400" height="400"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
